@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectList should render correctly with default state 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SelectList
+    className=""
+    icon={false}
+    onClick={[Function]}
+    options={
+      Array [
+        Object {
+          "icon": "top",
+          "id": "1",
+          "title": "Yo soy la opción 1",
+          "value": "option 1",
+        },
+        Object {
+          "icon": "left",
+          "id": "2",
+          "title": "Yo soy la opción 2",
+          "value": "option 2",
+        },
+        Object {
+          "icon": "right",
+          "id": "3",
+          "title": "Yo soy la opción 3",
+          "value": "option 3",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SelectListItem
+          className=""
+          icon="top"
+          onClick={[Function]}
+          selectedValue=""
+          title="Yo soy la opción 1"
+          value="option 1"
+        />,
+        <SelectListItem
+          className=""
+          icon="left"
+          onClick={[Function]}
+          selectedValue=""
+          title="Yo soy la opción 2"
+          value="option 2"
+        />,
+        <SelectListItem
+          className=""
+          icon="right"
+          onClick={[Function]}
+          selectedValue=""
+          title="Yo soy la opción 3"
+          value="option 3"
+        />,
+      ],
+      "className": "select__list",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "className": "",
+          "icon": "top",
+          "onClick": [Function],
+          "selected": undefined,
+          "selectedValue": "",
+          "title": "Yo soy la opción 1",
+          "value": "option 1",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "className": "",
+          "icon": "left",
+          "onClick": [Function],
+          "selected": undefined,
+          "selectedValue": "",
+          "title": "Yo soy la opción 2",
+          "value": "option 2",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "className": "",
+          "icon": "right",
+          "onClick": [Function],
+          "selected": undefined,
+          "selectedValue": "",
+          "title": "Yo soy la opción 3",
+          "value": "option 3",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SelectListItem
+            className=""
+            icon="top"
+            onClick={[Function]}
+            selectedValue=""
+            title="Yo soy la opción 1"
+            value="option 1"
+          />,
+          <SelectListItem
+            className=""
+            icon="left"
+            onClick={[Function]}
+            selectedValue=""
+            title="Yo soy la opción 2"
+            value="option 2"
+          />,
+          <SelectListItem
+            className=""
+            icon="right"
+            onClick={[Function]}
+            selectedValue=""
+            title="Yo soy la opción 3"
+            value="option 3"
+          />,
+        ],
+        "className": "select__list",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "className": "",
+            "icon": "top",
+            "onClick": [Function],
+            "selected": undefined,
+            "selectedValue": "",
+            "title": "Yo soy la opción 1",
+            "value": "option 1",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "className": "",
+            "icon": "left",
+            "onClick": [Function],
+            "selected": undefined,
+            "selectedValue": "",
+            "title": "Yo soy la opción 2",
+            "value": "option 2",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "className": "",
+            "icon": "right",
+            "onClick": [Function],
+            "selected": undefined,
+            "selectedValue": "",
+            "title": "Yo soy la opción 3",
+            "value": "option 3",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

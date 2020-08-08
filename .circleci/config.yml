@@ -1,0 +1,41 @@
+version: 2
+jobs:
+  test_node_9:
+    docker:
+      - image: circleci/node:9
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm test
+
+  test_node_10:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm test
+
+  release:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm run-script build
+      - run: npm run-script semantic-release
+
+workflows:
+  version: 2
+  test_and_release:
+    # Run the test jobs first, then the release only when all the test jobs are successful
+    jobs:
+      - test_node_9
+      - test_node_10
+      - release:
+          filters:
+            branches:
+              only: master
+          requires:
+            - test_node_9
+            - test_node_10

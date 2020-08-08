@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should render correctly with default state 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Select
+    className=""
+    icon=""
+    onSelect={[Function]}
+    options={
+      Array [
+        Object {
+          "icon": "top",
+          "title": "Option 1",
+          "value": "option 1",
+        },
+        Object {
+          "icon": "left",
+          "title": "Option 2",
+          "value": "option 2",
+        },
+        Object {
+          "icon": "right",
+          "title": "Option 3",
+          "value": "option 3",
+        },
+      ]
+    }
+    placeholder="Select"
+    selectedValue=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SelectHeader
+          className=""
+          icon=""
+          listOpen={false}
+          onClick={[Function]}
+          title="Select"
+        />,
+        false,
+      ],
+      "className": "select__wrapper",
+    },
+    "ref": Object {
+      "current": null,
+    },
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "",
+          "icon": "",
+          "listOpen": false,
+          "onClick": [Function],
+          "title": "Select",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SelectHeader
+            className=""
+            icon=""
+            listOpen={false}
+            onClick={[Function]}
+            title="Select"
+          />,
+          false,
+        ],
+        "className": "select__wrapper",
+      },
+      "ref": Object {
+        "current": null,
+      },
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "",
+            "icon": "",
+            "listOpen": false,
+            "onClick": [Function],
+            "title": "Select",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  p {
+    margin: 0;
+  }
+  h2 {
+    margin: 0;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.visibility-hidden{
+  visibility: hidden;
+}
+
+// .row {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+// }
+// .column {
+//   display: flex;
+//   flex-direction: column;
+// }
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+@each $bgColor, $color in $darkColors {
+  .bg--#{$bgColor} {
+    background-color: $color;
+    color: $white;
+  }
+}
+@each $bgLightColor, $color in $lightColors {
+  .bg--#{$bgLightColor} {
+    background-color: $color;
+    color: $gray;
+  }
+}
+
+@each $allColor, $color in $colors {
+  .color--#{$allColor} {
+    color: $color;
+  }
+}
+
+@each $allSize, $size in $sizes {
+  .size--#{$allSize} {
+    font-size: $size;
+    height: $size;
+  }
+}
+
+@each $allColor, $color in $colors {
+  .border--#{$allColor} {
+    border: solid 1.5px $color !important;
+    color: $color;
+  }
+}
+
+

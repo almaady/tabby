@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inputtitle should render correctly with default state 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InputTitle
+    allowBlank={true}
+    className=""
+    initialText=""
+    maxLength=""
+    onTextEdited={[Function]}
+    placeholder=""
+    readOnly={false}
+    resetOnFinish={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "className": "textarea__edition",
+      "defaultValue": "",
+      "maxLength": "",
+      "onBlur": [Function],
+      "onKeyDown": [Function],
+      "placeholder": "",
+      "readOnly": false,
+      "rows": "5",
+    },
+    "ref": [Function],
+    "rendered": null,
+    "type": "textarea",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "className": "textarea__edition",
+        "defaultValue": "",
+        "maxLength": "",
+        "onBlur": [Function],
+        "onKeyDown": [Function],
+        "placeholder": "",
+        "readOnly": false,
+        "rows": "5",
+      },
+      "ref": [Function],
+      "rendered": null,
+      "type": "textarea",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

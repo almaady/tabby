@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectHeader should render correctly with default state 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SelectHeader
+    className=""
+    icon=""
+    listOpen={false}
+    onClick={[Function]}
+    title="Title"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        "",
+        <p>
+          Title
+        </p>,
+        <ButtonIcon
+          borderColor=""
+          className=""
+          color="not-gray-l1"
+          disabled={false}
+          icon="down"
+          onClick={[Function]}
+          size="XXS"
+          type="button"
+        />,
+      ],
+      "className": "select__header",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      "",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Title",
+        },
+        "ref": null,
+        "rendered": "Title",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "borderColor": "",
+          "className": "",
+          "color": "not-gray-l1",
+          "disabled": false,
+          "icon": "down",
+          "onClick": [Function],
+          "size": "XXS",
+          "type": "button",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "",
+          <p>
+            Title
+          </p>,
+          <ButtonIcon
+            borderColor=""
+            className=""
+            color="not-gray-l1"
+            disabled={false}
+            icon="down"
+            onClick={[Function]}
+            size="XXS"
+            type="button"
+          />,
+        ],
+        "className": "select__header",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        "",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Title",
+          },
+          "ref": null,
+          "rendered": "Title",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "borderColor": "",
+            "className": "",
+            "color": "not-gray-l1",
+            "disabled": false,
+            "icon": "down",
+            "onClick": [Function],
+            "size": "XXS",
+            "type": "button",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,55 @@
+.pop-over{
+  width: 45%;
+  max-width: 384px; 
+  color: $black;
+  background-color: $white;
+  padding:16px;
+  max-height: 50vh;
+  position: fixed;
+  border-radius: 4px;
+  z-index: $level-3;
+  box-shadow: $shadow-2;
+  .icons{
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    }
+  .pop-over--header{
+    text-align: center;
+    h2{
+      font-size: $L;
+      font-weight: $regular;
+      color: $gray;
+    }
+
+  }
+  .pop-over--content{
+    display: flex;
+    overflow-y: auto;
+    max-height: 40vh;
+  }
+  .pop-over--footer{
+    margin: 0 auto;
+    padding:16px 0 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .transparent{
+    opacity: 0;
+    cursor: initial;
+  }
+}
+
+.pop-over--wrapper{
+  display: inherit;
+  #activator{
+    display: inline-block;
+  }
+}
+
+.width-200{
+  width:200px;
+}

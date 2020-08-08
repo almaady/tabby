@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>🔮 icon/arrow/down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,12.5001943 L19.1225521,5.78855867 C20.2383357,4.73714711 22.0473785,4.73714711 23.1631622,5.78855867 C24.2789459,6.83997022 24.2789459,8.54464516 23.1631622,9.59605672 L14.0203051,18.2114413 C12.9045214,19.2628529 11.0954786,19.2628529 9.97969491,18.2114413 L0.836837768,9.59605672 C-0.278945923,8.54464516 -0.278945923,6.83997022 0.836837768,5.78855867 C1.95262146,4.73714711 3.76166426,4.73714711 4.87744795,5.78855867 L12,12.5001943 Z" id="path-1"></path>
+    </defs>
+    <g id="🔮-icon/arrow/down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Path" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>
